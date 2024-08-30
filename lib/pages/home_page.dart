@@ -68,10 +68,15 @@ class HomePage extends StatelessWidget {
                   BoxWidget(Width: 100, Height: 60, box_color: Colors.green,),
                 ],
               ),
+
             ),
           ],
+
         ),
+
       ),
+
     );
+
   }
 }
