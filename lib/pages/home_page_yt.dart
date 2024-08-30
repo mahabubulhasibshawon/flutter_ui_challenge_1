@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_challenge_travel/pages/home_page.dart';
 import 'package:ui_challenge_travel/widgets/promo_card_widget.dart';
 
 class HomePageYt extends StatefulWidget {
@@ -17,7 +18,9 @@ class _HomePageYtState extends State<HomePageYt> {
         backgroundColor: Colors.white,
         elevation: 0,
         leading: IconButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context).push(MaterialPageRoute(builder: (context)=> HomePage()));
+          },
           icon: const Icon(
             Icons.menu,
             color: Colors.black87,
